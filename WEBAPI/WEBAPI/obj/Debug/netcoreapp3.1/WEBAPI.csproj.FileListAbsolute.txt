@@ -7,6 +7,10 @@ D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\W
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\WEBAPI.runtimeconfig.dev.json
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\WEBAPI.dll
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\WEBAPI.pdb
+D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
@@ -147,9 +151,4 @@ D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\obj\Debug\netcoreapp3.1\W
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\obj\Debug\netcoreapp3.1\WEBAPI.csproj.CopyComplete
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\obj\Debug\netcoreapp3.1\WEBAPI.dll
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\obj\Debug\netcoreapp3.1\WEBAPI.pdb
-D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
-D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
-D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\obj\Debug\netcoreapp3.1\WEBAPI.csprojAssemblyReference.cache
 D:\Official\Projects\CRUDAngularwithCore\WEBAPI\WEBAPI\obj\Debug\netcoreapp3.1\WEBAPI.MvcApplicationPartsAssemblyInfo.cache

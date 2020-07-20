@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 using WEBAPI.Models;
 
 namespace WEBAPI
@@ -26,6 +27,10 @@ namespace WEBAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+
+            services.AddMvc(option => option.EnableEndpointRouting = false);
+
             //remove default json formatting
             services.AddControllers().AddJsonOptions(options =>
             {
@@ -36,30 +41,27 @@ namespace WEBAPI
             services.AddDbContext<PaymentDetailContext>(options =>
            options.UseSqlServer("data source=DESKTOP-40GEPN6\\SQLEXPRESS;Database = PaymentDetailDB; Trusted_Connection = True; MultipleActiveResultSets = True;"));
             //add cors package
-            services.AddCors(c =>
-            {
-                c.AddPolicy("AllowOrigin", options => options.WithOrigins("http://localhost:4200"));
-            });
+            services.AddCors();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+        
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseCors(options =>
+           options.WithOrigins("http://localhost:4200")
+           .AllowAnyMethod()
+           .AllowAnyHeader());
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
-
-            app.UseCors(options => options.WithOrigins("http://localhost:4200"));
+            app.UseMvc();
         }
     }
 }

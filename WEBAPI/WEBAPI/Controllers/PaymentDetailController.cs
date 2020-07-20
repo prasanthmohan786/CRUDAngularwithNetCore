@@ -81,7 +81,7 @@ namespace WEBAPI.Controllers
 
         
         [HttpPost]
-        [EnableCors("AllowOrigin")]
+        
         public async Task<ActionResult<PaymentDetail>> PostPaymentDetail(PaymentDetail paymentDetail)
         {
             _context.PaymentDetails.Add(paymentDetail);
